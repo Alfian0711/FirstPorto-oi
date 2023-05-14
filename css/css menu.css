@@ -1,0 +1,122 @@
+*{
+   padding: 0px;
+   margin: 0px;
+   text-decoration:none;
+}
+body{
+    margin: 0px;
+    padding: 35px;
+    font-family: 'Open Sans',sans-serif;
+}
+.wrapper{
+    width: 1100%;
+    margin: auto;
+    position:relative;
+}
+.logo a{
+    font-size: 50px;
+    font-weight: 600;
+    float: left;
+    font-family: 'Courier New', Courier, monospace;
+    color: #FECD70;
+}
+.menu{
+  float: right;
+}
+nav{
+    width: 100%;
+    margin: auto;
+    display: flex;
+    line-height: 80px;
+    position: sticky;
+    position:fixed ; 
+    top:0;
+    background: white;
+    z-index: 1;
+    border-bottom:3px solid #FECD70; /* fungsi memberi garis pada navbar*/
+  }
+  nav ul{
+    list-style-type:none ;
+    margin: 0;
+    padding: 0;
+    overflow:hidden; 
+  }
+  nav ul li{
+    float: left;
+ }
+ nav ul li a{
+    color:black;
+    font-weight: bold;
+    text-align: center;
+    padding:0px 16px 0px 17px;
+    text-decoration: none;
+ }
+ nav ul li a:hover{
+    text-decoration: underline;
+ }
+ .tbl-biru:hover{
+    background-color: pink;
+    color:aliceblue;
+    border-radius: 20px;
+    margin-top: 30px;
+    padding: 15px 15px 15px 15px;
+ }
+ /*--------------for pic 1 until 4------------*/
+ section{
+    margin: auto;
+    display:flex;
+    margin-left: 30px;
+    float: left;
+ }
+ h2{
+   text-align: center;
+   color:#FECD70;
+   font-size: 30px;
+   font-weight: 800;
+   font-family: 'comic sans ms';
+ }
+ .kolom{
+   margin-left: 50px;
+   margin-right: 50px;
+   text-align: left;
+   font-size: 30px;
+   font-weight: bold;
+   font-family: comic sans ms;
+   color:#FECD70;
+ }
+ /*-----------------more----------------*/
+ #more{
+   background-color: #FFF7BC;
+   padding: 50px 0px 50px 0px;
+}
+.footer{
+   width: 100%;
+   position:relative;
+   display:flex;
+   flex-wrap: wrap;
+   margin:auto;
+}
+.footer-section{
+   width: 30%;
+   margin: 0 auto;
+}
+h3{
+   font-family: 'comic sans ms';
+   font-weight: 800;
+   font-size: 40px;
+   margin-bottom: 30px;
+   color: #FECD70;
+   width: 100%;
+   line-height: 50px;
+   text-align: center;
+}
+P{
+   text-align: center;
+}
+/*--------for copyright-------------*/
+#copyright{
+   text-align: center;
+   width: 100%;
+   padding: 20px 0px 20px 0px;
+   margin-top: 30px;
+}

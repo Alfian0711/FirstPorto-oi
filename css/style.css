@@ -1,0 +1,202 @@
+/* (*) artinya semua style bermargin and pagging 0 seperti perintah dibawah */
+*{
+    text-decoration: none;
+    margin: 0px ;     /* margin untuk mengaplikasikan jarak tepi pada sebuah elemen bagian luar (tepi garis luar)*/
+    padding: 0px;  
+    /*padding ini berfungsi untuk mengatur tampilan elemen yang tertulis
+     dan juga memisahkan konten dari tampilan visual */
+}
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Open Sans',sans-serif;
+}
+/*. menandakan suatu nilai didalam tag dan atribut*/
+/*fingsi wrapper sndiri untuk membungkus Contohnya termasuk pembungkus objek, pembungkus fungsi*/
+.wrapper{           
+    width: 1100px;
+    margin:auto ;
+    position: relative;
+}
+/* value logo berfungsi untuk membuat logo sedangkan a(href) nya bertujuan untuk mengarah kesuatu link*/
+.logo a{
+    font-size: 50px;
+    font-weight: 600;
+    float: left;  /*float berfungsi untuk mengatur letak logo*/
+    font-family: 'Courier New', Courier, monospace;
+    color: #FECD70;
+}
+.menu{
+    float: right; /*float ini untuk mengtur letak menu*/
+}
+nav{
+  width: 100%;
+  margin: auto;
+  display: flex;
+  line-height: 80px;
+  position: sticky;
+  position:fixed ; 
+  top:0;
+  background: white;
+  z-index: 1;
+  border-bottom:3px solid #FECD70; /* fungsi memberi garis pada navbar*/
+}
+nav ul{
+  list-style-type:none ;
+  margin: 0;
+  padding: 0;
+  overflow:hidden; 
+  /* overflow untuk mengontrol konten yang terlalu besar atau melewati batas 
+  yang telah ditentukan untuk dimasukkan ke dalam suatu area.*/
+}
+ nav ul li{
+    float: left;
+ }
+ nav ul li a{
+    color:black;
+    font-weight: bold;
+    text-align: center;
+    padding:0px 16px 0px 16px;
+    text-decoration: none;
+ }
+ /*fungsi hover yang hanya berjalan apabila kursor berada diatas suatu objek tertentu.*/
+ nav ul li a:hover{
+    text-decoration: underline;
+ }
+ /*------------------------css untuk home-----------------------------------*/
+ 
+ 
+ section{
+    margin: auto;
+    display: flex;
+    margin-bottom: 50px;
+    float: left;
+ }
+ .kolom{
+    margin-top: 50px;
+    margin-bottom: 50px;
+ }
+ .kolom .description{
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: comic sans ms;
+    color:#FECD70;
+ }
+h2{
+    text-align: center;
+    font-family: comic sans ms;
+    font-size: 40px;
+    font-weight: 700    ;
+    margin-bottom: 20px;
+    color:#FECD70;
+    width: 100%;
+    line-height: 50px;
+}
+p{
+    text-align: center;
+    font-family: comic sans ms;
+}
+a.tbl-biru:hover{
+    background-color: #FECD70;
+    background: #FF7F3F;
+    border-radius: 20px;
+    margin-top: 20px;
+    padding: 15px 20px 15px 20px;
+    color: aliceblue;
+    cursor: pointer;
+    font-weight: bold;
+}
+a.tbl-pink{
+    background-color: #FF7F3F;
+    background: #FECD70;
+    border-radius: 20px;
+    margin-top: 30px;
+    padding: 15px 15px 15px 15px;
+    cursor: pointer;
+    font-weight: bold;
+    color:white;
+}
+/*ini agar ada fariasi pada tombol (cari menu) makanya dibuat 2 css*/
+a.tbl-pink:hover{
+    background-color: #FA9494;  
+    font-weight: bold;
+    text-decoration: none;   
+}
+p{
+    margin: 10px 0px 10px 0px;
+    padding: 10px 0px 10px 0px
+}
+/*-------------------css untuk contact---------------------*/
+.center{
+    text-align: center;
+    width: 100%;
+}
+.contact-list{
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+}
+.contact-admin{
+    width: 20%;
+    margin: 0 auto;
+}
+.contact-admin img{
+    width: 80%;
+    border-radius: 50%;
+}
+.contact-admin p{
+    font-family:'comic sans ms';
+    font-size: 30px;
+    font-weight: 800;
+    text-align: center;
+    color: #FECD70;
+}
+a.tbl-black{
+    background: white;
+    border-radius: 20px;
+    margin-top: 30px;
+    padding: 15px 15px 15px 15px;
+    cursor: pointer;
+    font-weight: bold;
+    color:#FECD70;
+}
+a.tbl-black:hover{
+    background-color: #FFF7BC;  
+    font-weight: bold;
+    text-decoration: none;  
+}
+/*------------------css untuk more-------------------------*/
+#more{
+    background-color: #FFF7BC;
+    padding: 50px 0px 50px 0px;
+}
+.footer{
+    width: 100%;
+    position:relative;
+    display:flex;
+    flex-wrap: wrap;
+    margin:auto;
+}
+.footer-section{
+    width: 30%;
+    margin: 0 auto;
+}
+h3{
+    font-family: 'comic sans ms';
+    font-weight: 800;
+    font-size: 40px;
+    margin-bottom: 30px;
+    color: #FECD70;
+    width: 100%;
+    line-height: 50px;
+    text-align: center;
+}
+/*----------- css for copyright---------------*/
+#copyright{
+    text-align: center;
+    width: 100%;
+    padding: 20px 0px 20px 0px;
+    margin-top: 30px;
+}
